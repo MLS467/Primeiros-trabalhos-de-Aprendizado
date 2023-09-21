@@ -1,0 +1,35 @@
+section {
+    background-color: $corDiv;
+    @include centraliza(space-around, center);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);    flex-flow: column;
+    height: 80%;
+    width: 40%;
+    color: white;
+
+    #btn {
+        color: $corFonte;
+        @include centraliza(center, center);
+        // border: solid white 1px;
+        font-size: 15px;
+        width: 50%;
+        background-color: $corBtn;
+        height: 40px;
+        font-weight: bold;
+        cursor: pointer;
+        &:hover {
+            opacity: 0.8;
+        }
+
+    }
+
+    input:focus,
+    input:focus {
+        box-shadow: 0 0 0 0;
+        outline: 0;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}

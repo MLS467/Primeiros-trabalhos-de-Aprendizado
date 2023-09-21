@@ -1,0 +1,11 @@
+@mixin centralizar($direcao, $direcao2) {
+    display: flex;
+    justify-content: $direcao;
+    align-items: $direcao2;
+
+
+}
+
+@mixin borda($cor) {
+    border: 1px solid $cor;
+}

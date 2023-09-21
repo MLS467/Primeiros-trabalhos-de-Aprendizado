@@ -1,0 +1,16 @@
+@import 'variaveis';
+@import 'divs';
+
+* {
+    box-sizing: border-box;
+
+    body {
+        background: linear-gradient(to right, #fbb051 30%, #fe844b 70%);
+        margin: 0;
+        // border: 1px solid orangered;
+        height: 700px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap");
+section {
+  background-color: #353b50;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  flex-flow: column;
+  height: 80%;
+  width: 40%;
+  color: white;
+}
+section #btn {
+  color: #d6d7d7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  width: 50%;
+  background-color: #a13854;
+  height: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+section #btn:hover {
+  opacity: 0.8;
+}
+section input:focus,
+section input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+section a {
+  color: white;
+  text-decoration: none;
+}
+
+#email,
+#senha {
+  background-color: #353b50;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 500px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #454d6b;
+  height: 600px;
+  font-family: "Noto Sans", sans-serif;
+}
+body h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  width: 100%;
+  margin-left: 10%;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+@import './variaveis';
+@import'./function';
+@import'./centro';
+@import './input';
+
+body {
+    @include centraliza(center, center);
+    background-color: $corFundo;
+    height: 600px;
+    font-family: 'Noto Sans', sans-serif;
+
+    h1 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+        // border: 1px solid white;
+        width: 100%;
+        margin-left: 10%;
+    }
+}

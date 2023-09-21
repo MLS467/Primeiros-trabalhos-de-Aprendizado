@@ -1,0 +1,35 @@
+section {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  justify-content: space-between;
+  color: white;
+  width: 25%;
+  height: 600px;
+  border-radius: 10px;
+  box-shadow: 60px -16px 10px rgba(0, 0, 0, 0.2);
+  background-color: #1e140c;
+}
+section .certo {
+  position: relative;
+  display: block;
+  color: white;
+  font-size: 300px;
+  height: 150px;
+}
+section p {
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #fbb051 30%, #fe844b 70%);
+  margin: 0;
+  height: 700px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}/*# sourceMappingURL=index.css.map */

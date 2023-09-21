@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+* body {
+  margin: 0;
+  background-image: url(../img/pexels-porapak-apichodilok-346696.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+* body #divInput {
+  max-width: 100%;
+  height: 700px;
+}
+* body #divInput #divCentro {
+  max-width: 100%;
+  height: 700px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: right;
+  align-items: center;
+}
+* body #divInput #divCentro #content {
+  margin-right: 10%;
+  height: 500px;
+  width: 38%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: wrap;
+}
+* body #divInput #divCentro #content input {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 18px;
+  border-radius: 10px;
+  border-color: rgba(128, 128, 128, 0);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  height: 25px;
+  width: 150px;
+  margin-left: 0;
+}
+* body #divInput #divCentro #content input::-moz-placeholder {
+  color: #2f8d88;
+}
+* body #divInput #divCentro #content input::placeholder {
+  color: #2f8d88;
+}
+* body #divInput #divCentro #content input:focus {
+  background-color: rgba(255, 255, 255, 0);
+}
+* body #divInput #divCentro #content #Cep {
+  width: 90%;
+}
+* body #divInput #divCentro #content #nome,
+* body #divInput #divCentro #content #sobrenome {
+  width: 250px;
+  margin-left: 0;
+}
+* body #divInput #divCentro #content #area {
+  text-align: center;
+  font-size: 18px;
+  width: 80%;
+  border-radius: 10px;
+  border-color: rgba(128, 128, 128, 0);
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+* body #divInput #divCentro #content #area::-moz-placeholder {
+  color: #2f8d88;
+}
+* body #divInput #divCentro #content #area::placeholder {
+  color: #2f8d88;
+}
+* body #divInput #divCentro #content #area:focus {
+  background-color: rgba(255, 255, 255, 0);
+}/*# sourceMappingURL=index.css.map */

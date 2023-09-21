@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color:#F5F5F5;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    /* border:0.0625em solid orangered ; */
+    background-color: white;
+    box-shadow: 0 0.125em 0.25em 0 rgba(0, 0, 0, .2);
+    justify-content: space-around;
+}
+
+header img {
+    width: 1.125em;
+    height: 1.125em;
+}
+
+.div1 {
+    width: 40%;
+    padding: 1.25em;
+    text-align: center;
+}
+
+.div1 a {
+    text-decoration: none;
+    color: #51c357;
+
+}
+
+.div2 {
+    width: 40%;
+    /* border:0.0625 solid yellow ; */
+}
+
+.div3 {
+    width: 10%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    align-items: center;
+    background-color: white;
+
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li a {
+    padding: 0.9375em 1.25em;
+    color: black;
+    text-decoration: none;
+    border-radius: 0.3125em;
+}
+
+ul li a:hover {
+    background-color: #51c357;
+    color: white;
+    box-shadow: 0 0.75em 1em 0 rgba(0, 0, 0, 0.24), 0 1.0625 3.125em 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+#img {
+    background-image: url(../arquivo_1/img/pexels-mikhail-nilov-8412433.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    height: 43.75em;
+    width: 100%;
+    /* border:0.0625em solid black ; */
+    color: white;
+    box-shadow: 0 0.125em 0.25em 0 rgb(0, 0, 0);
+}
+
+#divimg {
+    position: absolute;
+}
+
+.btn {
+    /* border: solid 0.0625em rgba(0, 0, 0, 0.183); */
+    padding: 0.625em 3.125em;
+    border-radius: 0.3125em;
+    background-color: #5cc05a;
+    color: white;
+}
+
+#img a {
+    text-decoration: none;
+}
+
+#saibamais {
+    margin-left: 41.875em;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+#saibamais:hover,
+.btn:hover {
+    opacity: 0.8;
+    box-shadow: 0 0.75em 1em 0 rgba(0, 0, 0, 0.24), 0 1.0625em 3.125em 0 rgba(0, 0, 0, 0.19);
+}
+#ordenada{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    /* border: 0.0625em solid black; */
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    flex-flow:row ;
+   
+}
+#ordenada div{
+    width: 50%;
+}
+section h2{
+    text-align:center ;
+    color:#51c357;
+}
+section ol li{
+    /* border:0.0625em solid #51c357; */
+    width: 100%;
+    height: 2.5em;
+    text-align: center;
+    line-height:3.125em;
+   
+}
+.ord1{
+    color:#51c357;
+    width: 100%;
+    /* border: solid 0.0625em red; */
+}
+.ord2{
+    width: 50%;
+    width: 100%;
+}
+
+.ord1 li:nth-child(odd) {
+   background-color:#F5F5F5;
+  }
+
+.ord1 li:nth-child(even){
+    background-color:  #ECECEC;
+}
+
+
+
+footer {
+    background-color: #efedee;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+    width: 100%;
+    height: 15.625em;
+    margin-top: 10%;
+    box-shadow: 0 0.75em 1em 0 rgba(0, 0, 0, 0.24), 0 1.0625em 3.125em 0 rgba(0, 0, 0, 0.19);
+}
+
+footer div {
+    width: 33%;
+   
+    height: 15.625em;
+}
+
+#iniciofooter {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+#meiofooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#finalfooter {
+    display: flex;
+    color: #51c357;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#redessociais {
+
+    width: 30%;
+    height: 3.125em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#redessociais img {
+    width: 2em;
+    height: 2em;
+}
+
+footer div img {
+    display: inline-block;
+   
+}
+ 

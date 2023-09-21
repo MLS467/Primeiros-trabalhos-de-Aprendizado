@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+@import './funcoes';
+@import './variaveis';
+@import './sec2';
+@import './footer';
+
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    margin: 0%;
+    max-width: 100%;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: $fundo;
+
+
+    nav {
+        background-color: $fundo;
+        display: flex;
+        font-family: $fonte2;
+        position: fixed;
+        width: 100%;
+        // border: 1px solid green;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+        h1 {
+            font-weight: bold;
+            font-family: $fonte;
+            color: $roxdiv;
+            text-align: left;
+            margin-left: 11%;
+            width: 30%;
+            // @include borda(orangered);
+        }
+
+
+        #nav {
+            // border: 1px solid orangered;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // @include borda(blue);
+            width: 50%;
+
+            a {
+                display: block;
+                // border: 1px solid greenyellow;
+                text-align: center;
+                text-decoration: none;
+                font-size: 20px;
+                color: $roxLetras;
+                padding: 20px;
+
+
+                &:hover {
+                    &:hover {
+                        border-top: 3px solid $rosinha;
+                        color: $rosinha;
+                    }
+                }
+
+
+            }
+
+            #faleconosco {
+                text-align: center;
+                line-height: 20px;
+                color: white;
+                background: $roxinho;
+                padding: 10px 20px;
+                border-radius: 5px;
+                margin-left: 10%;
+
+                &:hover {
+                    background: $rosinha;
+                    border-top: none;
+                }
+
+            }
+        }
+    }
+
+    section {
+        width: 100%;
+
+
+        #divsec {
+            // @include borda(black);
+
+            justify-content: center;
+            display: flex;
+            flex-flow: row wrap;
+            width: 100%;
+            height: 800px;
+
+            #div1 {
+                width: 40%;
+                height: auto;
+                // background-color: gray;
+                color: $roxdiv;
+                @include centralizar(center, center);
+                // @include borda(rgb(42, 214, 27));
+                flex-direction: column;
+                flex-wrap: wrap;
+
+                #texto {
+
+                    // @include borda(pink);
+                    width: 100%;
+
+                    p {
+
+                        // @include borda(red);
+                        color: $roxdiv;
+                        width: 100%;
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+
+
+                        button {
+                            cursor: pointer;
+                            background: $rosinha;
+                            color: white;
+                            margin-top: 15px;
+                            padding: 16px 18px;
+                            border: none;
+                            border-radius: 5px;
+
+                            &:hover {
+                                background-color: $roxinho;
+                            }
+                        }
+                    }
+                }
+            }
+
+            #div2 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 40%;
+                height: auto;
+                // background-color: rgb(102, 118, 15);
+                // @include borda(black);
+
+                img {
+                    margin-left: 100px;
+                }
+            }
+
+        }
+
+
+    }
+
+    #img {
+
+        position: fixed;
+        bottom: 5px;
+        right: 5px;
+        cursor: pointer;
+    }
+
+
+
+
+
+
+}

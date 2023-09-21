@@ -1,0 +1,28 @@
+section {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: space-between;
+    color: white;
+    // border: solid rgb(232, 10, 221) 5px;
+    width: 25%;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 60px -16px 10px rgba(0, 0, 0, 0.2);
+    background-color: $fundoRelogio;
+
+    .certo {
+        position: relative;
+        display: block;
+        // border: 1px solid red;
+        color: white;
+        font-size: 300px;
+        height: 150px;
+
+
+    }
+
+    p {
+        text-align: center;
+    }
+}

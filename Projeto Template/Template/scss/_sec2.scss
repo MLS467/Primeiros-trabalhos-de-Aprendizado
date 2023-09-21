@@ -1,0 +1,52 @@
+#sec2 {
+    // @include borda(blue);
+    width: 85%;
+    margin: auto auto;
+
+    #negocio {
+        margin-top: 0%;
+        // @include borda(red);
+        height: 100px;
+        display: inline-block;
+        font-family: $fonte;
+        color: $roxLetras;
+        font-size: 50px;
+        text-align: center;
+        width: 100%;
+
+    }
+
+
+
+    #container {
+
+        @include centralizar(space-around, center);
+        // @include borda(orangered);
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+        height: auto;
+
+        .quadros {
+
+            @include centralizar(center, center);
+            @include borda($roxinho);
+            flex-flow: column wrap;
+            border-radius: 10px;
+            width: 25%;
+            height: 300px;
+
+            p {
+                padding: 7px;
+                text-align: center;
+                font-size: 20px;
+                color: black;
+            }
+
+        }
+    }
+
+
+
+
+}
